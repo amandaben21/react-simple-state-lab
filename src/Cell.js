@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 
 export default class Cell extends Component {
-    constructor(props){
+    constructor(props) {
         super()
         this.state = {
             color: props.value
         }
     }
-    
-    // has an event listener that, when clicked, sets state's 'color' key to a value of '#333'
-    clickEvent = () => {   
-        this.setState({color: '#333'})
+
+     clickEvent = () =>{
+         this.setState({color: '#333'})
     }
-    
+
+    /*has an event listener that, when clicked, calls this.setState() once 
+    (make sure you aren't setting state directly, but instead using the component's 'setState' method) */
     render() {
         return (
-            <div onclick= {this.clickEvent} className="cell" style={{backgroundColor: this.state.color}} >
-            </div>
+            <div className="cell" style={{backgroundColor: this.state.color}} onClick={this.clickEvent}></div>
         )
     }
 }

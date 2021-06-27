@@ -5,15 +5,15 @@
     "passes": 4,
     "pending": 0,
     "failures": 4,
-    "start": "2021-06-27T02:51:29.661Z",
-    "end": "2021-06-27T02:51:29.733Z",
-    "duration": 72
+    "start": "2021-06-27T02:55:00.689Z",
+    "end": "2021-06-27T02:55:00.762Z",
+    "duration": 73
   },
   "tests": [
     {
       "title": "defines Matrix.defaultProps",
       "fullTitle": "<Matrix /> defines Matrix.defaultProps",
-      "duration": 5,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected false to equal true",
@@ -33,21 +33,21 @@
     {
       "title": "has a state key of 'color'",
       "fullTitle": "<Cell /> has a state key of 'color'",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "state.color is initially set to the 'value' prop passed from Matrix",
       "fullTitle": "<Cell /> state.color is initially set to the 'value' prop passed from Matrix",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
       "fullTitle": "<Cell /> has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected false to equal true",
@@ -60,7 +60,7 @@
     {
       "title": "has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
       "fullTitle": "<Cell /> has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
         "message": "expected false to equal true",
@@ -86,7 +86,7 @@
     {
       "title": "sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
       "fullTitle": "<Cell /> sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -96,7 +96,7 @@
     {
       "title": "defines Matrix.defaultProps",
       "fullTitle": "<Matrix /> defines Matrix.defaultProps",
-      "duration": 5,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected false to equal true",
@@ -109,7 +109,7 @@
     {
       "title": "has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
       "fullTitle": "<Cell /> has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected false to equal true",
@@ -122,7 +122,7 @@
     {
       "title": "has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
       "fullTitle": "<Cell /> has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
         "message": "expected false to equal true",
@@ -157,21 +157,21 @@
     {
       "title": "has a state key of 'color'",
       "fullTitle": "<Cell /> has a state key of 'color'",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "state.color is initially set to the 'value' prop passed from Matrix",
       "fullTitle": "<Cell /> state.color is initially set to the 'value' prop passed from Matrix",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
       "fullTitle": "<Cell /> sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }

@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 8,
+    "passes": 4,
+    "pending": 0,
+    "failures": 4,
+    "start": "2021-06-27T02:51:29.661Z",
+    "end": "2021-06-27T02:51:29.733Z",
+    "duration": 72
+  },
+  "tests": [
+    {
+      "title": "defines Matrix.defaultProps",
+      "fullTitle": "<Matrix /> defines Matrix.defaultProps",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-Matrix.test.js:20:63)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
+      "fullTitle": "<Cell /> is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a state key of 'color'",
+      "fullTitle": "<Cell /> has a state key of 'color'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "state.color is initially set to the 'value' prop passed from Matrix",
+      "fullTitle": "<Cell /> state.color is initially set to the 'value' prop passed from Matrix",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
+      "fullTitle": "<Cell /> has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/1-Cell.test.js:46:60)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
+      "fullTitle": "<Cell /> has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/1-Cell.test.js:52:36)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "has an event listener that, when clicked, sets state's 'color' key to a value of '#333'",
+      "fullTitle": "<Cell /> has an event listener that, when clicked, sets state's 'color' key to a value of '#333'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '#fff' to equal '#333'",
+        "showDiff": true,
+        "actual": "#fff",
+        "expected": "#333",
+        "stack": "AssertionError: expected '#fff' to equal '#333'\n    at Context.<anonymous> (test/1-Cell.test.js:57:41)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
+      "fullTitle": "<Cell /> sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "defines Matrix.defaultProps",
+      "fullTitle": "<Matrix /> defines Matrix.defaultProps",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-Matrix.test.js:20:63)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
+      "fullTitle": "<Cell /> has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/1-Cell.test.js:46:60)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
+      "fullTitle": "<Cell /> has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/1-Cell.test.js:52:36)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "has an event listener that, when clicked, sets state's 'color' key to a value of '#333'",
+      "fullTitle": "<Cell /> has an event listener that, when clicked, sets state's 'color' key to a value of '#333'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '#fff' to equal '#333'",
+        "showDiff": true,
+        "actual": "#fff",
+        "expected": "#333",
+        "stack": "AssertionError: expected '#fff' to equal '#333'\n    at Context.<anonymous> (test/1-Cell.test.js:57:41)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
+      "fullTitle": "<Cell /> is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a state key of 'color'",
+      "fullTitle": "<Cell /> has a state key of 'color'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "state.color is initially set to the 'value' prop passed from Matrix",
+      "fullTitle": "<Cell /> state.color is initially set to the 'value' prop passed from Matrix",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
+      "fullTitle": "<Cell /> sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
